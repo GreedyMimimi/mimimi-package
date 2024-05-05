@@ -1,0 +1,9 @@
+[package]
+name = "mimimi_package"
+version = "1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+mimimi_package = "0x0"
